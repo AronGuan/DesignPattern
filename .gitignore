@@ -3,6 +3,5 @@
 build
 .classpath
 .project
-META-INF
-WEB-INF
+bin
 .jar
