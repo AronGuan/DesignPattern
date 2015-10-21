@@ -1,4 +1,4 @@
-¹¤³§Ä£Ê½  
-1.¼òµ¥¹¤³§
-Àı×ÓÖĞµÄÀàÍ¼  
-![icon]http://github.com/AronGuan/DesignPattern/images/simpleFactory.png
+å·¥å‚æ¨¡å¼  
+1.ç®€å•å·¥å‚
+ä¾‹å­ä¸­çš„ç±»å›¾  
+![alt text](https://github.com/AronGuan/DesignPattern/blob/master/images/simpleFactory.PNG)
