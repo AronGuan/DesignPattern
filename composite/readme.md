@@ -1,14 +1,14 @@
-���ģʽ   
-����:�����㽫������ϳ����νṹ������"����/����"��νṹ������ÿͻ���һ�µķ�ʽ������������Լ�������ϡ�(���ܹ��������ṹӦ����ͬ�Ĳ���(�����ӡ))��֦��Ҷ������һ���Ĳ���
+组合模式   
+定义:允许你将对象组合成树形结构来表现"整体/部分"层次结构，组合让客户以一致的方式处理个别对象以及对象组合。(即能够对整个结构应用相同的操作(例如打印))，枝和叶可以有一样的操作
 
-���ϲ�ĸ�����ӿڣ�Ҷ�ǻ�����POJO�࣬��֦ʵ���˲���������
+最上层的根定义接口，叶是基本的POJO类，而枝实现了操作方法。
 
-��ͼ
-![alt ���ģʽ](https://github.com/AronGuan/DesignPattern/blob/master/images/singleton.PNG)
-ͨ�������ķ�ʽ�������ӽڵ㡣  
+类图
+![alt 组合模式](https://github.com/AronGuan/DesignPattern/blob/master/images/composite.PNG)
+通过迭代的方式来访问子节点。  
 
-����(�͹ݲ͵�)  
-���Ĵ��벿��
+例子(餐馆餐单)  
+核心代码部分
 ```
 public abstract class MenuComponent {
 	public void add(MenuComponent menuComponent) {
